@@ -1,0 +1,48 @@
+.header {
+    background-image: url('Assets/Hero-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+}
+
+.banner {
+    max-width: 905px;
+    margin: 158px auto;
+    text-align: center;
+}
+
+.rale {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+}
+.allButtons {
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    font-weight: bold;
+    height: 48px;
+    width: 132px;
+    border: none;
+    padding-left: 36px;
+    padding-right: 36px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border-radius: 12px;
+}
+.inter-logo {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    
+    margin: 0px 150px 0px 150px;
+    height: 150px;
+}
