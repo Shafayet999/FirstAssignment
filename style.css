@@ -201,6 +201,12 @@ p {
     border: solid;
     border-color: #655fff;
     color: white;
+    transition: 100ms;
+}
+.createButton:hover {
+    width: 200px;
+    height: 53px;
+    background-color: #44ced8;
 }
 .banner {
     max-width: 905px;
@@ -212,18 +218,30 @@ p {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
 }
+.xtra {
+    transition: 100ms;
+}
+.xtra:hover {
+    height: 54px; width: 235px;
+}
 .allButtons {
     background-color: #4E47FF;
     color: #FFFFFF;
     font-weight: bold;
     height: 48px;
-    width: 132px;
+    width: 136px;
     border: none;
     padding-left: 36px;
     padding-right: 36px;
     margin-top: 12px;
     margin-bottom: 12px;
     border-radius: 12px;
+    transition: 100ms;
+}
+.allButtons:hover {
+    height: 53px;
+    width: 138px;
+    background-color: #87ccb5;
 }
 .inter-logo {
   font-family: "Inter", sans-serif;
