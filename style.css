@@ -1,5 +1,89 @@
+.formF {
+    border-radius: 10px; 
+    border-style: solid; 
+    border-color: rgb(226, 233, 238); 
+    font-size: 20px; 
+    padding-left: 32px; 
+    padding-top: 20px; 
+    padding-bottom: 20px;
+    width: 400px;
+}
+
+.lines {
+    display: flex; 
+    justify-content: center;
+}
+.last {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 170px; 
+    margin-right: 170px; 
+    margin-top: 100px; 
+    height: 635px; 
+}
+
+
+
+
+.focus {
+    background-color: #FFFFFF;
+    margin-left: 170px;
+    margin-right: 170px;
+    height: 797px;
+    border-radius: 14px;
+}
+
+.headl {
+    font-weight: bold;
+    font-size: 60px;
+    margin-top: 71px;
+}
+.normall {
+    font-size: 25px;
+}
+.text {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    gap: 20px; 
+    text-align: center;
+}
+.innerContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 20px;
+}
+.newBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.image {
+    height: 365px;
+    width: 840px;
+    border-radius: 480px;
+    margin-top: 30px;
+}
+.image img {
+    border-radius: 48px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .uniqueReviwes{
-    width: 367px;
+    width: 500px;
     height: 243px;
     border-radius: 14px;
     background-color: #fbfbfe;
@@ -40,6 +124,10 @@ body {
 }
 
 
+
+.userReview {
+    margin-top: 200px;
+}
 .face img {
     margin-left: 24px;
     border-radius: 9999px;
@@ -65,11 +153,9 @@ body {
 }
 
 .conferrence {
-    margin-left: 141px;
-    margin-right: 159px;
     margin-top: 116px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .headLine h1 {
     font-size: 38px;
@@ -79,8 +165,8 @@ body {
     margin-bottom: 0px;
 }
 .numbers {
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 .headLine {
     text-align: center;
@@ -95,8 +181,9 @@ p {
 .information {
     background-color: #e6e5ff;
     border-radius: 24px;
-    margin: 110px auto; 
-    height: 320px; width: 1140px;
+    margin-left: 170px; margin-right: 170px;
+    margin-top: 116px;
+    height: 340px; 
 }
 .header {
     background-image: url('Assets/Hero-bg.png');
