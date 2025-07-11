@@ -194,7 +194,7 @@ p {
     height: 700px;
 }
 .createButton {
-    background-color: #4E47FF;
+    background-color: #4b45ff;
     width: 195px;
     height: 48px;
     border-radius: 10px;
@@ -207,6 +207,7 @@ p {
     width: 200px;
     height: 53px;
     background-color: #44ced8;
+    border-color: #44ced8;
 }
 .banner {
     max-width: 905px;
